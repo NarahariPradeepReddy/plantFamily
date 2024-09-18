@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #7a818e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.custom-textfield .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(252, 249, 249);
+ 
+}
+.custom-textfield input::placeholder {
+  color: rgb(253, 250, 250) !important;
+}
+
+.custom-textfield input {
+  color: rgb(252, 251, 251) !important;
+}
+
+.custom-textfield .MuiInputLabel-outlined {
+  color: rgb(250, 247, 247) !important;
 }
